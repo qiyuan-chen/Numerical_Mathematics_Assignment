@@ -1,11 +1,11 @@
-function [x] = explore(n,x0,h)
+function [x] = explore(n, x0, h)
 % 输入
 % n 变量数量，x0 初始值（向量），func求解函数，h为步长
 %
 % 输出
 % x 最佳点
-    x=x0;
-    f0=func(x);% 得到f(x_0)
+    x = x0;
+    f0 = func(x);% 得到f(x_0)
     for i = 1:n
         x(i) = x(i) + h(i); 
         ff = func(x); %在一个方向上尝试

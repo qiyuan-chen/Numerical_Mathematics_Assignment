@@ -1,6 +1,6 @@
-function [x,best_value,iter] = hookejeeves(n, x0, h, min_h, maxiter)
+function [x, best_value, iter] = hookejeeves(n, x0, h, min_h, maxiter)
 % 输入
-% n 变量数量，x0 初始值（向量），stepsize 搜索步长，min_stepsize 最小步长
+% n 变量数量，x0 初始值（向量），h 搜索步长，min_h 最小步长
 % toll 误差，maxiter 最大迭代次数，func求解函数
 %
 % 输出
